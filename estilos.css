@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: rgb(212, 212, 194);
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    background-color: gray;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contenedor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+article section{
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+}
+
+article section p, article section h2{
+    margin: 1rem;
+}
+
+article section:hover{
+    box-shadow: 0 0.3rem 0.4rem black;
+}
+
+article section{
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    cursor: pointer;
+}
+
+footer{
+    background: black;
+    padding: 0.3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
